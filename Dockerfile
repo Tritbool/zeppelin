@@ -12,7 +12,6 @@ RUN wget http://mirrors.ircam.fr/pub/apache/zeppelin/zeppelin-0.8.0/zeppelin-0.8
 && tar zxf zeppelin-0.8.0-bin-all.tgz \
 && rm zeppelin-0.8.0-bin-all.tgz
 
-ADD slaves /opt/spark-2.3.2-bin-hadoop2.7/conf
 ADD spark-defaults.conf /opt/spark-2.3.2-bin-hadoop2.7/conf
 ADD spark-env.sh /opt/spark-2.3.2-bin-hadoop2.7/conf
 ADD log4j.properties /opt/spark-2.3.2-bin-hadoop2.7/conf
