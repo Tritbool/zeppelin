@@ -1137,7 +1137,7 @@
         },
         "zeppelin.spark.useHiveContext": {
           "name": "zeppelin.spark.useHiveContext",
-          "value": true,
+          "value": false,
           "type": "checkbox"
         },
         "zeppelin.spark.printREPLOutput": {
@@ -1152,7 +1152,7 @@
         },
         "spark.executor.memory": {
           "name": "spark.executor.memory",
-          "value": "6g",
+          "value": "4g",
           "type": "textarea"
         },
         "zeppelin.spark.sql.interpolation": {
@@ -1227,7 +1227,7 @@
         },
         "spark.worker.memory": {
           "name": "spark.worker.memory",
-          "value": "12g",
+          "value": "8g",
           "type": "textarea"
         }
       },
