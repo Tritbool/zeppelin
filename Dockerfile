@@ -19,6 +19,8 @@ ADD spark-env.sh /opt/spark-2.3.2-bin-hadoop2.7/conf
 ADD log4j.properties /opt/spark-2.3.2-bin-hadoop2.7/conf
 
 ADD zeppelin-env.sh /opt/zeppelin-0.8.0-bin-all/conf
+ADD interpreter.json /opt/zeppelin-0.8.0-bin-all/conf
+
 ENV SPARK_HOME /opt/spark-2.3.2-bin-hadoop2.7
 ENV PATH $PATH:/opt/spark-2.3.2-bin-hadoop2.7/sbin
 ENV PATH $PATH:/opt/spark-2.3.2-bin-hadoop2.7/bin
