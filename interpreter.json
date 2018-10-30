@@ -1127,7 +1127,7 @@
         },
         "spark.worker.cores": {
           "name": "spark.worker.cores",
-          "value": "12",
+          "value": "8",
           "type": "textarea"
         },
         "zeppelin.spark.sql.stacktrace": {
@@ -1152,7 +1152,7 @@
         },
         "spark.executor.memory": {
           "name": "spark.executor.memory",
-          "value": "4g",
+          "value": "8g",
           "type": "textarea"
         },
         "zeppelin.spark.sql.interpolation": {
@@ -1177,7 +1177,7 @@
         },
         "spark.executor.cores": {
           "name": "spark.executor.cores",
-          "value": "6",
+          "value": "8",
           "type": "textarea"
         },
         "zeppelin.spark.maxResult": {
